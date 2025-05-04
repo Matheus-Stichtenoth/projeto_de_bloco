@@ -56,7 +56,7 @@ services:
       - spark-master
   
   pyspark:
-    image: jupyter/pyspark-notebook:latest
+    build: .
     container_name: pyspark
     environment:
       - JUPYTER_ENABLE_LAB=yes
