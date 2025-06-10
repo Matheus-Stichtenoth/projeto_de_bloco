@@ -5,3 +5,5 @@ pyspark
 minio
 boto3
 dotenv
+kafka-python
+python-dotenv
